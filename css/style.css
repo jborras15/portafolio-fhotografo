@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    
+}
+img{
+    border-style: none;
+    width: 1500;
+    height: 600;
+    
+}
+.headerimg{
+    max-width: 100%;
+    height: auto;
+    width: 1100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.contenedor{
+    position: relative;
+}
+.containername{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border:1px solid rgb(190, 183, 183);   
+}
+.name{
+    font-size: 24px;
+    padding:  20px;
+    text-align: center;   
+}
+
+h3{
+    text-align: center;
+    padding-bottom:10px ;
+}
